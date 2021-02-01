@@ -1,0 +1,1 @@
+SELECT Round(AVG(rating),2) - 0.01 FROM ratings, movies WHERE year = 2012 
